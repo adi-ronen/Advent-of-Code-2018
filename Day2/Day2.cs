@@ -6,7 +6,9 @@ class MainClass
 {
   public static void Main (string[] args) 
   {
+    //Part One
     Console.WriteLine("the checksum for my list of box IDs is: "+ listOfBoxIDschecksum());
+    //Part Two
     Console.WriteLine("the common letters between the two correct box IDs are: "+longestCommonLetters());
   }
 
